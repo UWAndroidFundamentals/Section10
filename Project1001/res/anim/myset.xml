@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Create a "scale" entry that grows from 10 percent to full size in two seconds -->
+	<!-- Create a "rotate" entry that spins 360 degrees for two minutes after the above animation -->
+	<!-- Create a "translate" (i.e. move) entry that moves twenty percent up and to the right for two minutes after the above automation -->
+	<!-- Create a "alpha" (i.e. fade away) entry that starts after the above automation and lasts two minutes -->
+</set>

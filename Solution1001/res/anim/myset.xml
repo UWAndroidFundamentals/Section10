@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Create a "scale" entry that grows from 10 percent to full size in two seconds -->
+	<scale 
+		android:pivotX="50%" 
+		android:pivotY="50%"
+		android:fromXScale=".1" 
+		android:fromYScale=".1" 
+		android:toXScale="1.0"
+		android:toYScale="1.0" 
+		android:duration="2000">
+	</scale>
+	<!-- Create a "rotate" entry that spins 360 degrees for two minutes after the above animation -->
+	<rotate 
+		android:fromDegrees="0"
+		android:toDegrees="360" 
+		android:pivotX="50%"
+		android:pivotY="50%" 
+		android:duration="2000"
+		android:startOffset="2000">
+	</rotate>
+	<!-- Create a "translate" (i.e. move) entry that moves twenty percent up and to the right for two minutes after the above automation -->
+	<translate
+        android:fromXDelta="-20%"
+        android:toXDelta="0%"
+        android:fromYDelta="20%"
+        android:toYDelta="0%"
+        android:duration="2000"
+        android:startOffset="4000">
+	</translate>
+	<!-- Create a "alpha" (i.e. fade away) entry that starts after the above automation and lasts two minutes -->
+	<alpha 
+		android:fromAlpha="1.0" 
+		android:toAlpha="0.0"
+		android:duration="2000"
+		android:startOffset="6000">
+	</alpha>
+</set>
